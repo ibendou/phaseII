@@ -34,30 +34,6 @@
   },
   "Unit Tests": {
     "coverage": {
-      "/home/ubuntu/workspace/lab5/app/models/task.rb": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        3,
-        2,
-        null
-      ],
-      "/home/ubuntu/workspace/lab5/app/models/application_record.rb": [
-        1,
-        1,
-        null
-      ],
-      "/home/ubuntu/workspace/lab5/app/models/chore.rb": [
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
       "/home/ubuntu/workspace/lab5/app/models/child.rb": [
         1,
         1,
@@ -70,6 +46,54 @@
         null,
         1,
         1,
+        null,
+        null
+      ],
+      "/home/ubuntu/workspace/lab5/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/home/ubuntu/workspace/lab5/app/models/task.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/home/ubuntu/workspace/lab5/app/models/chore.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        3,
+        2,
+        2,
+        2,
+        2,
+        null,
+        2,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        2,
+        1,
+        null,
+        1,
+        null,
+        null,
         null,
         null
       ],
@@ -325,6 +349,6 @@
         0
       ]
     },
-    "timestamp": 1552408965
+    "timestamp": 1552421931
   }
 }
