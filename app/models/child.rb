@@ -8,6 +8,6 @@ class Child < ApplicationRecord
     end
     
     scope :alphabetical, -> { order("first_name, last_name asc") }
-   scope :active, -> { where('active = ?', true) }
+    scope :active, -> { where('active = ?', true) }
     
 end
