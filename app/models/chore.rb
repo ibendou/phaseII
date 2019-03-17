@@ -10,7 +10,7 @@ class Chore < ApplicationRecord
     scope :upcoming, -> { where("due_on >= date('now')")}
     scope :pending, -> { where("completed = ?",false)}
    
-    scope :chronological, -> { order("due_on ASC").order("completed ASC") }
+    scope :chronological, -> { order("due_on, completed ASC") }
     
     def destroy
    

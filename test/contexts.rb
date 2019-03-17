@@ -1,7 +1,7 @@
 module Contexts
   def create_children
-    @alex = FactoryBot.create(:child)
-    @rachel = FactoryBot.create(:child, first_name: "Rachel", active: false)
+    @alex = FactoryBot.create(:child) #uses default values in the factory
+    @rachel = FactoryBot.create(:child, first_name: "Rachel", active: false) #overriden stuff - this you do on your own to populated the db when testing 
     @mark = FactoryBot.create(:child, first_name: "Mark")
   end
   
