@@ -1,8 +1,8 @@
 module Contexts
-  def create_children
-    @alex = FactoryBot.create(:child)
-    @rachel = FactoryBot.create(:child, first_name: "Rachel", active: false)
-    @mark = FactoryBot.create(:child, first_name: "Mark")
+  def create_employees
+    @alex = FactoryBot.create(:employee)
+    @imane = FactoryBot.create(:employee, first_name: "Imane", last_name: "Bendou", ssn: "023455320", date_of_birth: 1976-01-09, phone:"433488211", role: "manager"  active: false)
+    @mark = FactoryBot.create(:employee, first_name: "Mark",ssn: "021234520", phone: "433448711")
   end
   
   def destroy_children
