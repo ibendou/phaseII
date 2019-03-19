@@ -7,6 +7,10 @@ class StoreTest < ActiveSupport::TestCase
     should validate_presence_of(:street)
     should validate_presence_of(:zip)
     should validate_uniqueness_of (:name)
+    should validate_inclusion_of(:state).
+    in_array(%w(OH WV PA)).
+    with_message('State must be Pennsylvania, West Virginia, or Ohio')
+    
     
     context "Creating stores" do
     setup do
