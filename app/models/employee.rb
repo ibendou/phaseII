@@ -19,7 +19,7 @@ class Employee < ApplicationRecord
     scope :regulars, -> {where('role = ?', 'employee')}
     scope :managers, -> {where('role = ?', 'manager')}
     scope :admins, -> {where('role = ?', 'admin')}
-    scope :asignments, -> {joins(:assignments)}
+    scope :assignments, -> {joins(:assignments)}
     
     
     #join (current assignment)

@@ -58,8 +58,12 @@ class EmployeeTest < ActiveSupport::TestCase
             assert_equal ["Alex Heimann", "Imane Bendou", "Mark Heimann"], Employee.alphabetical.map{|s| s.proper_name}
         end
         
-        should " returns a boolean indicating whether this employee is over 18 or not" do
+        should " returns a boolean indicating whether this employee is over 18" do
                 assert_equal @imane.over_18?, true
+        end
+        
+        should " returns a boolean indicating whether this employee is not over 18" do
+                assert_equal @mark.over_18?, false
         end
     end
     

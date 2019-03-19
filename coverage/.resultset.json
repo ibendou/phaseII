@@ -37,14 +37,14 @@
         null,
         null,
         1,
-        1,
+        2,
         null,
         null,
         1,
-        1,
+        2,
         1,
         null,
-        0,
+        1,
         null,
         null,
         null,
@@ -64,6 +64,27 @@
         1,
         null
       ],
+      "/home/ubuntu/workspace/lab5.1/app/models/assignment.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        null,
+        1,
+        null,
+        null,
+        null
+      ],
       "/home/ubuntu/workspace/lab5.1/app/models/store.rb": [
         1,
         null,
@@ -76,30 +97,9 @@
         null,
         null,
         null,
-        1,
-        1,
-        1,
-        null
-      ],
-      "/home/ubuntu/workspace/lab5.1/app/models/assignment.rb": [
-        1,
-        1,
-        1,
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        1,
-        null,
-        null,
+        2,
+        2,
+        2,
         null
       ],
       "/home/ubuntu/workspace/lab5.1/app/helpers/application_helper.rb": [
@@ -342,6 +342,6 @@
         0
       ]
     },
-    "timestamp": 1553017551
+    "timestamp": 1553022814
   }
 }
