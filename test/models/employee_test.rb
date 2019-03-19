@@ -30,6 +30,10 @@ class EmployeeTest < ActiveSupport::TestCase
             assert_equal ["Heimann, Alex", "Heimann, Mark"], Employee.active.alphabetical.map{|s| s.name}
         end
         
+        should "return all inactive employees" do
+            assert_equal ["Bendou, Imane"], Employee.inactive.alphabetical.map{|s| s.name}
+        end
+        
         should "return all regular employees" do
             assert_equal ["Heimann, Mark"], Employee.regulars.alphabetical.map{|s| s.name}
         end
@@ -74,9 +78,7 @@ class EmployeeTest < ActiveSupport::TestCase
         end 
     
         should "return the employee's current assignment or nil if the employee does not have a current assignment." do
-            puts 'here 1'
             puts  @mark.current_assignment
-            puts 'here 2'
           #  assert_equal [], @mark.current_assignment
         end
     end
