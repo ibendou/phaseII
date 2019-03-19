@@ -1,11 +1,7 @@
 require 'test_helper'
 
 class StoreTest < ActiveSupport::TestCase
-<<<<<<< HEAD
-  # test "the truth" do
-  #   assert true
-  # end
-=======
+
     should have_many(:assignments)
   
     should validate_presence_of(:name)
@@ -48,5 +44,5 @@ class StoreTest < ActiveSupport::TestCase
       
     end
 
->>>>>>> models
+
 end

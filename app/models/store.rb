@@ -1,6 +1,4 @@
 class Store < ApplicationRecord
-<<<<<<< HEAD
-=======
     
     has_many(:assignments)
     validates_inclusion_of :state, :in => ["OH", "WV", "PA"]
@@ -14,5 +12,5 @@ class Store < ApplicationRecord
     scope :active, -> { where('active = ?', true) }
     scope :inactive, -> { where('active = ?', false) }
     scope :alphabetical, -> { order('name asc') }
->>>>>>> models
+
 end

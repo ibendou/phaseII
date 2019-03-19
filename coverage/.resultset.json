@@ -1,33 +1,58 @@
 {
   "Unit Tests": {
     "coverage": {
-      "/home/ubuntu/workspace/lab5.1/app/models/employee.rb": [
+      "/home/ubuntu/workspace/phase2/app/models/store.rb": [
         1,
-        1,
-        1,
-<<<<<<< HEAD
-        null
-      ]
-    },
-    "timestamp": 1505707012
-  },
-  "Unit Tests": {
-    "coverage": {
-      "/home/ubuntu/workspace/lab5/app/models/task.rb": [
-        1,
-=======
->>>>>>> models
+        null,
         1,
         1,
         1,
         1,
-<<<<<<< HEAD
+        1,
         1,
         null,
         null,
-        3,
+        null,
         2,
-=======
+        2,
+        2,
+        null,
+        null
+      ],
+      "/home/ubuntu/workspace/phase2/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/home/ubuntu/workspace/phase2/app/models/assignment.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        null,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/home/ubuntu/workspace/phase2/app/models/employee.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
         null,
         null,
         null,
@@ -43,7 +68,6 @@
         2,
         2,
         1,
->>>>>>> models
         null,
         null,
         null,
@@ -53,11 +77,6 @@
         null,
         null,
         1,
-<<<<<<< HEAD
-        null
-      ],
-      "/home/ubuntu/workspace/lab5/app/models/chore.rb": [
-=======
         3,
         null,
         null,
@@ -84,102 +103,22 @@
         null,
         null
       ],
-      "/home/ubuntu/workspace/lab5.1/app/models/application_record.rb": [
->>>>>>> models
-        1,
-        1,
-        null
-      ],
-      "/home/ubuntu/workspace/lab5.1/app/models/assignment.rb": [
-        1,
-        1,
-        1,
-        1,
-        null,
-<<<<<<< HEAD
-        3,
-        3,
-=======
-        2,
->>>>>>> models
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        null,
-        1,
-        null,
-        null,
-        null
-      ],
-      "/home/ubuntu/workspace/lab5.1/app/models/store.rb": [
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        2,
-        2,
-        2,
-        null
-      ],
-<<<<<<< HEAD
-      "/home/ubuntu/workspace/lab5/app/models/child.rb": [
-        1,
-        1,
-        1,
-        1,
-        null,
-        1,
-        3,
-        null,
-        null,
-        3,
-        2,
-        null,
-        1,
-        3,
-        null,
-        null,
-        null
-      ],
-      "/home/ubuntu/workspace/lab5/app/helpers/application_helper.rb": [
+      "/home/ubuntu/workspace/phase2/app/helpers/application_helper.rb": [
         0,
         0
       ],
-      "/home/ubuntu/workspace/lab5/app/helpers/chores_helper.rb": [
+      "/home/ubuntu/workspace/phase2/app/models/emplyee.rb": [
         0,
         0
       ],
-      "/home/ubuntu/workspace/lab5/app/helpers/children_helper.rb": [
-        0,
-        0
-      ],
-      "/home/ubuntu/workspace/lab5/app/helpers/tasks_helper.rb": [
-=======
-      "/home/ubuntu/workspace/lab5.1/app/helpers/application_helper.rb": [
->>>>>>> models
-        0,
-        0
-      ],
-      "/home/ubuntu/workspace/lab5.1/app/controllers/application_controller.rb": [
+      "/home/ubuntu/workspace/phase2/app/controllers/application_controller.rb": [
         0,
         null,
         null,
         0,
         0
       ],
-      "/home/ubuntu/workspace/lab5.1/app/controllers/chores_controller.rb": [
+      "/home/ubuntu/workspace/phase2/app/controllers/chores_controller.rb": [
         0,
         0,
         null,
@@ -255,7 +194,7 @@
         0,
         0
       ],
-      "/home/ubuntu/workspace/lab5.1/app/controllers/tasks_controller.rb": [
+      "/home/ubuntu/workspace/phase2/app/controllers/tasks_controller.rb": [
         0,
         0,
         null,
@@ -331,7 +270,7 @@
         0,
         0
       ],
-      "/home/ubuntu/workspace/lab5.1/app/controllers/children_controller.rb": [
+      "/home/ubuntu/workspace/phase2/app/controllers/children_controller.rb": [
         0,
         0,
         null,
@@ -408,10 +347,6 @@
         0
       ]
     },
-<<<<<<< HEAD
-    "timestamp": 1552845532
-=======
-    "timestamp": 1553022814
->>>>>>> models
+    "timestamp": 1553024012
   }
 }
