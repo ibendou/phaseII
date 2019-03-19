@@ -1,7 +1,7 @@
 class Assignment < ApplicationRecord
    belongs_to :employee
    belongs_to :store
-   validates_presence_of(:store_id, :employee_id )
+   validates_presence_of(:store_id, :employee_id, :start_date, :pay_level)
   
    scope :current, -> { where(end_date:nil) }
    scope :past, -> { where('end_date < ?', Date.today) }

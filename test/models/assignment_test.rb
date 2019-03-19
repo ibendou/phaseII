@@ -6,7 +6,10 @@ class AssignmentTest < ActiveSupport::TestCase
   should belong_to(:store)
   
   should validate_presence_of(:employee_id)
-  should validate_presence_of(:store_id )
+  should validate_presence_of(:store_id)
+should validate_presence_of(:pay_level)
+should validate_presence_of(:start_date)
+
 
 
    context "Creating employees, stores and assignments....." do
@@ -26,15 +29,15 @@ class AssignmentTest < ActiveSupport::TestCase
             assert_equal [1], Assignment.current.map{|s| s.id}
         end
         
-        should " returns all the assignments that have terminated" do
+        should "return all the assignments that have terminated." do
             assert_equal [2], Assignment.past.map{|s| s.id}
         end
 
-        should "returns all assignments that are associated with a given store (parameter: store_id)" do
+        should "return all assignments that are associated with a given store (parameter: store_id)" do
             assert_equal [1], Assignment.for_store(1).map{|s| s.id}
         end
 
-        should "returns all assignments that are associated with a given employee  (parameter: employee_id)" do
+        should "return all assignments that are associated with a given employee  (parameter: employee_id)" do
             assert_equal [1], Assignment.for_employee(1).map{|s| s.id}
         end
 
@@ -59,8 +62,6 @@ class AssignmentTest < ActiveSupport::TestCase
         end
 
 
-# i) 'chronological' -- which orders assignments chronologically with the
-# most recent assignments listed first 
 
         
   end
