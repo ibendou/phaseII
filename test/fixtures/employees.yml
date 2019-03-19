@@ -7,11 +7,7 @@ one:
   date_of_birth: 2019-03-18
   phone: MyString
   role: MyString
-<<<<<<< HEAD
-  active: 
-=======
   active: false
->>>>>>> models
 
 two:
   first_name: MyString
@@ -20,8 +16,4 @@ two:
   date_of_birth: 2019-03-18
   phone: MyString
   role: MyString
-<<<<<<< HEAD
-  active: 
-=======
   active: false
->>>>>>> models

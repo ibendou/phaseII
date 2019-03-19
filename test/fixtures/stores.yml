@@ -9,7 +9,11 @@ one:
   phone: MyString
   latitude: 1.5
   longitude: 1.5
+<<<<<<< HEAD
   active: 
+=======
+  active: false
+>>>>>>> models
 
 two:
   name: MyString
@@ -20,4 +24,8 @@ two:
   phone: MyString
   latitude: 1.5
   longitude: 1.5
+<<<<<<< HEAD
   active: 
+=======
+  active: false
+>>>>>>> models
